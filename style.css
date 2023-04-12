@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #F1F0F7;
+  font-family: "poppins" sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 1000px;
+  background-color: #F4F6FA;
+  box-shadow: 2px 2px 5px rgb(191, 211, 228);
+}
+
+img {
+  height: 20px;
+  width: 50px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: centers;
+  width: 450px;
+  margin-bottom: 30px;
+  background-color: #F4F6FA;
+}
+.title {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2d2950;
+}
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+  color: #3b3b40;
+  padding: 10px;
+  font-size: .8rem;
+  /* word-spacing: 3px; */
+}
+.subconatiner {
+  background-color: #F4F6FA;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.ice {
+  background-color: #FFFFFF;
+  padding: 20px 20px;
+  font-size: 1rem;
+  box-shadow: -10px -15px 2px #FFFCED;
+  margin: 20px;
+  border-radius: 10px;
+}
+.telia{
+    background-color: #FFFFFF;
+  padding: 20px 20px;
+  font-size: 1rem;
+  box-shadow: -10px -15px 2px #F7EDFE;
+  margin: 20px;
+  border-radius: 10px;
+}
+.teelnor{
+    background-color: #FFFFFF;
+  padding: 20px 20px;
+  font-size: 1rem;
+  box-shadow: -10px -15px 2px #EEEEFF;
+  margin: 20px;
+  border-radius: 10px;
+}
+.ice img {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.telia img{
+    margin-bottom: 10px;
+  cursor: pointer;
+}
+.teelnor img{
+    margin-bottom: 10px;
+  cursor: pointer;
+}
+.ice-text {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.mb100 {
+  font-size: 0.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+span.twoNine {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.price {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+.subscription {
+  background-color: #F4F6FA;
+  color: #151518;
+  font-weight: bold;
+  font-family: 'Poppins';
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  transition: .3s ease-in;
+  cursor: pointer;
+}
+.subscription:hover{
+    background-color: #151518;
+    color: #F4F6FA;
+    transition: .2s ease-in-out;
+}
+.teliatext {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.calls {
+  font-size: 0.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.tele {
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+.all {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #2d2950;
+  color: #fff;
+  font-family: 'Poppins';
+  border-radius: 40px;
+  cursor: pointer;
+
+}
+.all:hover{
+    background-color: #fff;
+    color: #181538;
+    transition: .3s ease-in;
+}
